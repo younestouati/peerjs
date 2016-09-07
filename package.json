@@ -22,7 +22,7 @@
     "mocha": "*"
   },
   "dependencies": {
-    "@phame/phame-shared": "^0.0.31",
+    "@phame/phame-shared": "^0.0.39",
     "eventemitter3": "^0.1.5",
     "js-binarypack": "0.0.9",
     "reliable": "git+https://github.com/michelle/reliable.git"
