@@ -70,18 +70,6 @@ describe('util', function() {
     });
   });
 
-  describe('.setZeroTimeout', function() {
-    it('should call the function after a 0s timeout', function(done) {
-      var isdone = false;
-      util.setZeroTimeout(function() {
-        if (isdone) {
-          done();
-        }
-      });
-      isdone = true;
-    });
-  });
-
   describe('.blobToArrayBuffer', function() {
     it('should convert a blob to an arraybuffer', function(done) {
       var blob = new Blob(['hi']);
